@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(114, 184, 250);
+}
+div#title{
+    width: 900px;
+    height: 70px;
+    background-color: #ffff9f;
+    margin: 30px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    padding: 10px 10px 10px 10px;
+}
+div#box{
+    display: flex;
+    flex-direction: row;
+    width: 920px;
+    height: 400px;
+    margin: 30px auto 0px auto;
+    padding: 10px auto 10px auto;         
+}
+div#box1{
+    flex-direction: row;
+    width: 440px;
+    height: 500px;
+    background-color: #ffff9f;
+    margin: -10px auto 0px 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8); 
+    text-align: center;
+}
+div#box2{
+    flex-direction: row;
+    width: 440px;
+    height: 500px;
+    background-color: #ffff9f;
+    margin: -10px 0px 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8); 
+    text-align: center;
+}
+p#inbox{
+    color: green;
+    font-size: 14pt;
+    margin: 50px 0px 0px auto;
+}
+p#desc{
+    color: rgb(21, 21, 148);
+    font-size: 13pt;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size: 20pt;
+}
+h1#spec:hover{
+    color: red;
+    font-size: 21pt;
+}
+input#btn4{
+    width: 180px;
+    height: 40px;
+    margin: -10px 0px 0px auto;
+}
+input#btn5{
+    width: 180px;
+    height: 40px;
+    margin: 10px 0px 0px auto;
+}
+input#ftxt{
+    width: 240px;
+    height: 20px;
+    margin: 10px 45px -10px auto;
+}
+input#fnum{
+    width: 340px;
+    height: 200px;
+    margin: -10px 0px -10px auto;
+}
